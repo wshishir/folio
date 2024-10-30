@@ -4,12 +4,12 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Shishir",
   initials: "SH",
-  url: "https://dillion.io",
+  url: "https://folio-henna-tau.vercel.app/",
   location: "India",
   description:
     "Full Stack Developer focused on crafting seamless, scalable web solutions across front-end and back-end tech.",
   summary:
-    "I’m a 20 year old developer and freelancer based in India. I’ve taken coding seriously since 2022. Recently graduated, I’ve honed my skills through hands-on projects in JavaScript, and frameworks like React and Node.js. I like contributing to 🤓 open sourceas a web developer. Excited to contribute my skills and grow in a collaborative environment. Currently struggling with advanced backend 🦀 and devops.",
+    "I’m a 20 year old developer and freelancer based in India. I’ve taken coding seriously since 2022. Recently graduated, I’ve honed my skills through hands-on projects in JavaScript, and frameworks like React and Node.js. I like contributing to 🤓 open source as a web developer. Excited to contribute my skills and grow in a collaborative environment. Currently struggling with advanced backend 🦀 and devops.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
