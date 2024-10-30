@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Shishir",
   initials: "SH",
-  url: "https://folio-henna-tau.vercel.app/",
+  url: "https://dillion.io/",
   location: "India",
   description:
     "Full Stack Developer focused on crafting seamless, scalable web solutions across front-end and back-end tech.",
