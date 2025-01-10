@@ -24,9 +24,7 @@ export const DATA = {
     "Docker",
     "Java",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "shishirtech506@example.com",
     tel: "+917706020557",
@@ -56,32 +54,28 @@ export const DATA = {
   },
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Ascent",
+      href: "https://ascent-eta.vercel.app/",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Ascent is a cutting-edge project management application designed to streamline teamwork, enhance productivity, and elevate project execution to new heights.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
+        "Javascript",
         "Prisma",
+        "NeonDB",
+        "Clerk",
         "TailwindCSS",
-        "Stripe",
         "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://ascent-eta.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Magic UI",
