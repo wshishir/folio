@@ -1,6 +1,5 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-
 export const DATA = {
   name: "Shishir",
   initials: "SH",
@@ -58,7 +57,7 @@ export const DATA = {
       href: "https://ascent-eta.vercel.app/",
       active: true,
       description:
-        "Ascent is a cutting-edge project management application designed to streamline teamwork, enhance productivity, and elevate project execution to new heights.",
+        "Ascent is a cutting-edge project management application designed to streamline teamwork and enhance productivity.",
       technologies: [
         "Next.js",
         "Javascript",
@@ -74,102 +73,87 @@ export const DATA = {
           href: "https://ascent-eta.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/wshishir/ascent",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
+      image: "/ascent.png",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Medium.com",
+      href: "https://blogging-app-lime.vercel.app/signin",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Created a blogging app where users can read and publish blogs.",
       technologies: [
-        "Next.js",
+        "React.js",
         "Typescript",
+        "Hono",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://blogging-app-lime.vercel.app/signin",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/wshishir/blogging-app",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Saas Landing Page",
+      href: "https://saas-henna-omega.vercel.app/",
       active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+      description: "Light Saas Landing Page build in nextjs & framer-motion.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Framer Motion",
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://saas-henna-omega.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/wshishir/saas",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/saas.png",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Portfolio Website",
+      href: "https://folio-shishir.vercel.app/",
       active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+      description: "Developed my personal portfolio website using Magic UI .",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Magic UI"],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://folio-shishir.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/wshishir/folio",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/folio.png",
     },
   ],
 } as const;
