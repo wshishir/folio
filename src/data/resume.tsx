@@ -1,5 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { FileIcon } from "@radix-ui/react-icons";
+
 export const DATA = {
   name: "Shishir",
   initials: "SH",
@@ -49,8 +51,25 @@ export const DATA = {
 
         navbar: true,
       },
+      Resume: {
+        name: "Resume",
+        url: "https://docs.google.com/document/d/1AN-7XpmNtVrSswK_9EF61BecTxamtocte1ODrcRf3WY/edit?usp=sharing",
+        icon: FileIcon,
+
+        navbar: true,
+      },
     },
   },
+  education: [
+    {
+      school: "BBD University",
+      href: "https://bbdu.ac.in/",
+      degree: "Bachelor's Degree of Computer Applications (BCA)",
+      logoUrl: "/college.jpg",
+      end: "2024",
+    },
+  ],
+
   projects: [
     {
       title: "Ascent",
@@ -107,7 +126,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/medium.png",
     },
     {
       title: "Saas Landing Page",
